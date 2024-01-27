@@ -1,3 +1,9 @@
+# Pwnagotchi-Beacon
+
+This fork focuses on making pwnagotchi beacon (unit to unit) communication better.
+
+---
+
 # Pwnagotchi-Torch
 <a href="https://github.com/jayofelony/pwnagotchi/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/jayofelony/pwnagotchi.svg"></a><br/>
 **This fork of [Pwnagotchi](https://www.pwnagotchi.ai) now works on **ALL** Raspberry Pi's that have built-in Wi-Fi.**
