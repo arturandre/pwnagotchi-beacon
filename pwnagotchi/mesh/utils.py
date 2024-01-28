@@ -80,6 +80,7 @@ class AsyncAdvertiser(object):
                 self._closest_peer = None
                 for obj in grid_peers:
                     peer = Peer(obj)
+                    logging.debug(f"[AsyncAdvertiser] me: {self.fingerprint()} and grid peer: {peer.identity()}")
                     if peer.identity() == self.fingerprint():
                         continue
                     new_peers[peer.identity()] = peer
